@@ -1,0 +1,36 @@
+/* フォントサイズ */
+html {
+     font-size: 20px;
+}
+/* フォント */
+body {
+     font-family: "Arial","Meiryo",sans-serif;
+     text-align: center;
+     
+}
+/* フォント　太字 */
+#basic p {
+       font-weight: bold;
+}
+/* h１スタイル */
+h1 {
+    /* フォント */
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    /* フォント　サイズ */
+    font-size: 2em;
+    /* フォント　行間 */
+    letter-spacing: 1.2em;
+    /* フォント　影 */
+    text-shadow: 1px 1px 2px gray;
+    /* 実線 */
+    border-bottom: solid 3px rgb(115, 115, 114);
+}
+.sky-blue {
+           color: skyblue;
+}
+.pink{
+      color: rgb(255, 192, 203);
+}
