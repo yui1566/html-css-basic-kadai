@@ -1,0 +1,83 @@
+/* top 親要素 */
+#top{
+  /* 横幅　800p */
+  width: 800px;
+  /* 背景色　#dcc9f4; */
+  background-color: #dcc9f4;
+  /* 上下余白　20px 中央揃え */
+  margin: 20px auto;
+      /* p要素　中央揃え */
+  text-align: center;
+}
+/* top 子要素 */
+.top-child{
+  /* 横幅　親要素20％ */
+  width: 20%;
+  /* 背景色　#ffd9df */
+  background-color: #ffd9df;
+  /* 配置　横並び */
+  display: inline-block;
+  /* 文字　中央揃え */
+  text-align: center;
+}
+/* middle 親要素 */
+#middle{
+  /* 横幅　800px */
+  width: 800px;
+  /* 高さ　800px */
+  height: 800px;
+  /* 上下余白　20px 中央揃え */
+  margin: 20px auto;
+  /* 背景色　#ffd9df */
+  background-color: #ffd9df;
+  /* 配置　基準値 */
+  position: relative;
+}
+/* middle 子要素(共通装飾) */
+#middle-child01,#middle-child02,#middle-child03 {
+  width: 200px;
+  height: 200px;
+  background-color: #87ceeb;
+}
+/* middle-child01 配置 */
+#middle-child01{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+/* middle-child02 配置 */
+#middle-child02{
+  position: absolute;
+  top: 300px;
+  left: 300px;
+}
+/* middle-child03 配置 */
+#middle-child03{
+  position: absolute;
+  top: 500px;
+  left: 500px;
+}
+/* bottom 親要素 */
+#bottom{
+  width: 800px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #87ceeb;
+}
+/* bottom 子要素(共通装飾) */
+#bottom-child01,#bottom-child02,#bottom-child03{
+  width: 400px;
+  height: 100px;
+  background-color: #e5dcf0;
+}
+/* bottom-child02 配置 */
+#bottom-child02{
+  position: relative;
+  left: 200px;
+}
+/* bottom-child03 配置 */
+#bottom-child03{
+  position: relative;
+  left: 400px;
+}
